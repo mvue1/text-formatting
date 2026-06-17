@@ -37,4 +37,9 @@ p, h1, h2, h3, h4, h5, h6 {
   color: rgb(249, 212, 120);
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 4.21em;  /* This equals 42.1px */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.75); /*a stands for alpha, which controls the opacity of the shadow. A value of 0.75 means the shadow is 75% opaque and 25% transparent.*/
+}
+
+.main h2 {
+  font: normal 3.16em "Slabo 27px", Garamond, Times, serif; /* This equals 31.6px */
 }
