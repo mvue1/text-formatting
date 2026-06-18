@@ -31,6 +31,15 @@ p, h1, h2, h3, h4, h5, h6 {
 :root {
   font-family: PTSans, Arial, sans-serif;
   font-size: 62.5%;  /* This equals 10px */
+  background: rgb(225, 238, 253) url("../img/bg_body.png") repeat-x;
+}
+
+.main {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 4px solid white;
+  background: transparent url("../img/bg_banner.jpg") no-repeat;
 }
 
 .main h1 {
@@ -85,3 +94,10 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 1.6em;
   margin: 5px 0 25px 50px;
 }
+
+.main .byline strong {
+  color: rgb(32, 126, 191);
+  text-transform: uppercase;
+  margin-left: 11px;
+}
+
